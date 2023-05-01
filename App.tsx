@@ -20,7 +20,7 @@ const App = () => {
 
   const numb = [7, 8, 9, 4, 5, 6, 1, 2, 3,];
 
-   setNumb = numb => {
+  const setNumb = numb => {
     if (Result === '0') {
       setResult(numb)
     } else {
